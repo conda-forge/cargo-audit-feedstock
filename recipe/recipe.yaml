@@ -1,5 +1,5 @@
 context:
-  version: "0.21.2"
+  version: "0.22.1"
 
 package:
   name: cargo-audit
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/rustsec/rustsec/archive/refs/tags/cargo-audit/v${{ version }}.tar.gz
-  sha256: caf8914af7f95ebb45590c95b5f9bfd71bd6f9f57c1ffcf69dc9d20f0430e578
+  sha256: 262d42fcca5db8629b6220d84e62e7ffda913846a36089a847ffe276e6b09446
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
